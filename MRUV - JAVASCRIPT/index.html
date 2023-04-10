@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="mycanvas" width="800" height="400" style="border: 1px solid #000000"></canvas>
+    <div>
+        <h2 id="time">0,00</h2>
+    </div>
+    <div>
+        <div id="btn_container">
+
+        </div>
+        <button id="btn_stop" onclick="_CanvasFisicaControl.restartMovement()">Restablecer</button>
+    </div>
+    <div>
+        <div class="input_group_container">
+            <label for="input_speed">Velocidad</label>
+            <input id="input_speed" type="number" />
+        </div>
+        <div class="input_group_container">
+            <label for="input_speer_up">Aceleración</label>
+            <input id="input_speed_up" type="number" />
+        </div>
+    </div>
+    <!-- <script src="index.js"></script> -->
+    <script src="indexA.js"></script>
+</body>
+
+</html>
